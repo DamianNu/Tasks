@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class TrelloCardDto {
-
     private String name;
     private String description;
     private String pos;

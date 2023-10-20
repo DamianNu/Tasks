@@ -7,8 +7,6 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TrelloAttachmentsByTypeDto {
-
     @JsonProperty("trello")
     private TrelloDto trelloDto;
-
 }
