@@ -16,7 +16,6 @@ import java.util.Optional;
 public class SimpleEmailService {
 
     private final JavaMailSender javaMailSender;
-    private String toCc;
     public void send(final Mail mail) {
         log.info("Starting email preparation...");
         try {
@@ -37,7 +36,4 @@ public class SimpleEmailService {
         return mailMessage;
     }
 
-    public void setToCc(String toCc) {
-        this.toCc = toCc;
-    }
 }
